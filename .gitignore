@@ -1,0 +1,32 @@
+# Compiled files
+*.o
+*.out
+a.out
+
+# Build directories
+build/
+bin/
+
+# IDE or editor-specific files
+.vscode/
+.cproject
+.project
+
+# Temporary and backup files
+*~
+*.swp
+.*.sw?
+
+# Dependency files
+.depend
+Makefile.deps
+
+# Log files
+*.log
+
+# Compiled libraries
+*.a
+*.so
+
+# User-specific files
+.userprefs
