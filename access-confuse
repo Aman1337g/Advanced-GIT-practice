@@ -1,0 +1,4 @@
+I had set different hostnames for the ssh config in ~/.ssh/config file for my two different 
+GitHub accounts.
+I have cloned this repo from my second github account with url git@github.com:secondAcc/repo.git, but i have set the hostname as git@github.com-secondAcc
+for my second account so the cloning url have to be changed to git@github.com-secondAcc:secondAcc/repo.git. Now i am checking if private key of first account can be used to authenticate the github contents of my second account repo forked from my first account (it is very confusing to read i know ;)😕 ), although private key of my first account cannot be authenticated in second github account. Let's test.
