@@ -1,0 +1,10 @@
+I had set different hostnames for the ssh config in ~/.ssh/config file for my two different 
+GitHub accounts.
+I have cloned this repo from my second github account with url git@github.com:secondAcc/repo.git, but i have set the hostname as git@github.com-secondAcc
+for my second account so the cloning url have to be changed to git@github.com-secondAcc:secondAcc/repo.git. Now i am checking if private key of first account can be used to authenticate the github contents of my second account repo forked from my first account (it is very confusing to read i know ;)😕 ), although private key of my first account cannot be authenticated in second github account. Let's test.
+
+Now i have verified my theory by pushing the access-confuse file to forked repo(forked to second acc. from 1st acc.) using my first 1st account private key. It is not possible :). 
+
+Now changing remote-url : 
+
+git remote set-url origin git@github.com-secondAcc:secondAcc/repo.git 
