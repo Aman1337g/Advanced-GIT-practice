@@ -8,3 +8,4 @@ Now i have verified my theory by pushing the access-confuse file to forked repo(
 Now changing remote-url : 
 
 git remote set-url origin git@github.com-secondAcc:secondAcc/repo.git 
+changing in debian os!
