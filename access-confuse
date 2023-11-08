@@ -11,3 +11,4 @@ git remote set-url origin git@github.com-secondAcc:secondAcc/repo.git
 changing in debian os!
 change using first account.
 change using second account.
+change using second account after changing local repo's email to second Account.
