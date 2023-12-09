@@ -5,3 +5,8 @@ This repository is being created only for practicing purposes. This README.md fi
 
 Changing from the forked repo from another account and pushing directly to the main account from which the repo was forked from 
 as i have the ssh added.
+
+Testing command : git push origin --delete <branch_name>
+
+to check whether the branch specified is deleted locally as well as in remote.
+
